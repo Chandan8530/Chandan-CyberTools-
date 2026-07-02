@@ -11,7 +11,7 @@ def disclaimer():
 # Tool wrappers
 def run_theharvester():
     domain = input("Enter domain: ")
-    subprocess.run(["theHarvester", "-d", domain, "-l", "100", "-b", "google"])
+    subprocess.run(["theHarvester", "-d", domain, "-l", "100", "-b", "bing"])
 
 def run_nmap():
     target = input("Enter target IP/Domain: ")
